@@ -39,6 +39,22 @@ The PINN also demonstrated improved prediction smoothness:
 - Smoother, more physically consistent predictions in sparse and unseen regions
 - Improved generalisation despite a small reduction in within-domain predictive accuracy
 
+
+## Visual Results
+
+### Figure 1 — Predicted vs True Values
+
+![NN and PINN predictive performance comparison](figure-1-model-comparison.png)
+
+Comparison of NN and PINN predictions across within-domain, interpolation and extrapolation regimes. The PINN demonstrates improved predictive accuracy in sparse and unseen data regions.
+
+### Figure 3 — Extrapolation Behaviour
+
+![NN and PINN extrapolation comparison](figure-3-extrapolation.png)
+
+One-dimensional input sweep comparing predicted stellar luminosity against evolutionary stage. Outside the training domain, the standard NN tends towards simplified predictions, while the PINN maintains smoother, nonlinear behaviour consistent with expected physical trends.
+
+
 ## Research Significance
 
 The findings demonstrate that strong predictive accuracy on familiar data does not necessarily translate into reliable generalisation under unfamiliar conditions.
