@@ -53,4 +53,6 @@ The study highlights the importance of rigorous empirical evaluation, understand
 
 The full report includes the theoretical background, experimental methodology, quantitative results, figures, discussion, limitations and conclusions.
 
-**Source code:** The original implementation is no longer accessible and is therefore not included in this repository.
+## Source Code
+
+The original implementation is no longer accessible and is therefore not included in this repository.
